@@ -10,18 +10,20 @@
     <link rel="shortcut icon" type="image/png" href="file:///Users/skorobahatko/Documents/portfolio/main-page/favicon-16x16.png"/>
 </head>
 <body>
-<nav class="navbar navbar-fixed-top navbar-expand ">
-    <div class="container-fluid">
+<div class="container-fluid">
+<nav class="navbar navbar-fixed-top navbar-expand fixed" id="home">
+    <div class="container-fluid fixed">
         <div class="navbar-header">
             <a href="#" class="navbar-brand">skorobahatko</a>
         </div>
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">home</a>
-            <a class="nav-item nav-link" href="#">projects</a>
+            <a class="nav-item nav-link active" href="#home">home</a>
+            <a class="nav-item nav-link" href="#projects">projects</a>
             <a class="nav-item nav-link" href="#">about</a>
         </div>
     </div>
 </nav>
+    <div class="first-page">
 <header class="header">
     <div class="description text-left">
             <h1>Hello! <br> i'm Max, <br> i'm web-developer </h1>
@@ -32,12 +34,23 @@
     about me, and my works :) <br>
     </p>
 </div>
-
-<div class="container-fluid continue-below" id="showSecondPage" onclick="showSecondPage()">
-    <span>
-        <a href="#secondPage"><i class="fas fa-caret-down"></i></a>
-    </span>
+    </div>
+<div class="project">
+    <div class="project-title">
+        <h2 id="projects">my projects</h2>
+    </div>
+    <div class="project-body">
+    <ul id="projectUL"></ul>
+    </div>
 </div>
+
+
+
+<!--<div class="container-fluid continue-below" id="showSecondPage" onclick="showSecondPage()">-->
+<!--    <span>-->
+<!--        <a href="#"><i class="fas fa-caret-down"></i></a>-->
+<!--    </span>-->
+<!--</div>-->
 
 <main>
 
@@ -45,7 +58,7 @@
 
 
 
-
+</div>
 <script src="https://kit.fontawesome.com/2c4bc32d4a.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
