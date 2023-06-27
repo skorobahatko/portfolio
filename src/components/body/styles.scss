@@ -1,0 +1,15 @@
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url('../../../public/image.png');
+  background-color: #23272a;
+}
+
+.center-container {
+  background-color: #2b2e31;
+  width: 70%;
+  min-height: 87vh;
+  opacity: 0.9;
+}
