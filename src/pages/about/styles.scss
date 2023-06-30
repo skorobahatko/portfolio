@@ -1,0 +1,35 @@
+.about-content-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .main-header-title {
+    margin-top: 2%;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    // border: 1px solid white;
+
+    .name-title {
+        font-size: 75px;
+        color: white;
+        line-height: 0.8;
+        padding: 0 2%;
+        margin-bottom: 40px;
+    }
+    .position-title {
+        padding: 0 2%;
+        font-size: 50px;
+        color: white;
+        line-height: 0.8;
+    }
+  }
+  .main-info-content {
+    width: 96%;
+    .main-content-text {
+        color: white;
+        font-size: 20px;
+    }
+  }
+}
