@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { MAIN_CONTENT_HEADER_FOOTER } from '../../const';
 
 import './styles.scss';
 
@@ -8,12 +9,12 @@ export const Header = ({ activePage }: { activePage: string }) => {
       <div className="left-header-container">
         <td className={`${activePage === 'about' ? 'active ' : ''}nav-item`}>
           <Link className="link-item" to={'/'}>
-            About
+            {MAIN_CONTENT_HEADER_FOOTER.HEADER_NAV_ABOUT}
           </Link>
         </td>
         <td className={`${activePage === 'portfolio' ? 'active ' : ''}nav-item`}>
           <Link className="link-item" to={'/portfolio'}>
-            Portfolio
+            {MAIN_CONTENT_HEADER_FOOTER.HEADER_NAV_PORTFOLIO}
           </Link>
         </td>
       </div>
