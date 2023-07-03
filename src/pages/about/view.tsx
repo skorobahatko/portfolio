@@ -37,6 +37,9 @@ const AboutPageContent = () => {
         </p>
       </div>
       <div className="main-work-experience-container">
+        <div>
+          <h3>My work experience</h3>
+        </div>
         {ABOUT_PAGE_CONTENT.WORK_EXPERIENCE_ARRAY.map(({ fromTo, title, content }) => (
           <AboutWorkExperience fromTo={fromTo} title={title} content={content} />
         ))}

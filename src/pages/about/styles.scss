@@ -38,6 +38,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
+    h3 {
+      color: white;
+    }
 
     &:last-child {
       border-bottom: 1px solid white;
