@@ -35,12 +35,16 @@
 
   .main-work-experience-container {
     width: 75%;
+
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    
-    h3 {
-      color: white;
+
+    .header-work-experience {
+      h3 {
+        color: white;
+      }
     }
 
     &:last-child {
@@ -49,14 +53,13 @@
 
     .about-work-experience-content-container {
       display: flex;
+      justify-content: flex-start;
       border-top: 1px solid white;
-      justify-content: space-between;
-
-
 
       .time-from-to {
-        width: 40%;
+        min-width: 30%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: flex-start;
         span {
           margin: 2vh;
@@ -66,17 +69,22 @@
       }
 
       .content-container {
-        display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
+        min-width: 70%;
+        margin: 2vh;
 
         h3 {
           color: white;
           font-size: 20px;
+          margin: 0;
         }
         p {
-            color: white;
-            font-size: 17px;
+          margin-top: 0;
+          color: white;
+          font-size: 17px;
+        }
+        li {
+          color: white;
+          font-size: 16px;
         }
       }
     }

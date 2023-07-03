@@ -6,25 +6,22 @@ export const MAIN_CONTENT_HEADER_FOOTER = {
 
 export const ABOUT_PAGE_CONTENT = {
   HEADER_WELCOME: 'Welcome.',
-  HEADER_NAMING: 'My name is Lorem ipsum',
-  HEADER_SUB_NAMING:
-    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae harum iure illum error delectus impedit! Tenetur, numquam veritatis blanditiis alias mollitia totam doloribus accusantium ex, maxime iste hic, excepturi eos!',
-  MAIN_CONTENT_1:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum delectus beatae eius illum corporis laudantium ipsam molestiae inventore nisi. Pariatur maiores molestias deleniti quis odio suscipit mollitia voluptatem itaque aperiam!',
-  MAIN_CONTENT_2:
-    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem provident fugiat nesciunt labore vitae, odio eius deleniti dolor inventore, libero, in similique praesentium beatae! Minus dolore quae nesciunt cum alias?',
+  HEADER_NAMING: 'My name is Maksym Skorobahatko',
+  HEADER_SUB_NAMING: `Software engineer based in Ukraine 🇺🇦`,
+  MAIN_CONTENT_1: `I am a Backend Developer with Frontend background. I specialize in JS (TS), Python, SQL. Excellent working skills with NodeJS, NestJS, Serverless and AWS services.`,
+  MAIN_CONTENT_2: `I build backend applications with high proficient. Easy to learn new and highly adaptive to complex app structures. Fluent to speak in English (B2 level)`,
   WORK_EXPERIENCE_ARRAY: [
     {
       fromTo: 'August 2022 - Present',
       title: 'Daizy',
-      content:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis sed neque perspiciatis velit unde quia, impedit laboriosam, praesentium magnam soluta blanditiis autem? Similique optio, veniam eligendi quae est doloribus aliquam?'
+      content: `Financial startup. Investment AI. ESG, ETF's analysis`,
+      list: ['Providing architecture of Backend and Frontend projects and support them', 'Communication with English-speaking client']
     },
     {
       fromTo: 'October 2020 - August 2022',
-      title: '42-Flows',
-      content:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis sed neque perspiciatis velit unde quia, impedit laboriosam, praesentium magnam soluta blanditiis autem? Similique optio, veniam eligendi quae est doloribus aliquam?'
+      title: '42-Flows tech',
+      content: `Digital banking. Chatbot's, CRM's`,
+      list: ['Developing and support Backend and Frontend applications', `Chatbot's on Telegram/Viber/Messenger`]
     }
   ]
 };
