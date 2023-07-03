@@ -2,24 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
+import { AboutPage } from './pages';
 import reportWebVitals from './reportWebVitals';
-import { AboutPage, ContactPage, PortfolioPage } from './pages';
 import './index.scss';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <AboutPage />
-  },
-  {
-    path: '/portfolio',
-    element: <PortfolioPage />
-  },
-  {
-    path: '/contact',
-    element: <ContactPage />
   }
 ]);
+
+  // {
+  //   path: '/portfolio',
+  //   element: <PortfolioPage />
+  // },
+  // {
+  //   path: '/contact',
+  //   element: <ContactPage />
+  // }
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(

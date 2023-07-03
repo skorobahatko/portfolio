@@ -12,11 +12,11 @@ export const Header = ({ activePage }: { activePage: string }) => {
             {MAIN_CONTENT_HEADER_FOOTER.HEADER_NAV_ABOUT}
           </Link>
         </td>
-        <td className={`${activePage === 'portfolio' ? 'active ' : ''}nav-item`}>
+        {/* <td className={`${activePage === 'portfolio' ? 'active ' : ''}nav-item`}>
           <Link className="link-item" to={'/portfolio'}>
             {MAIN_CONTENT_HEADER_FOOTER.HEADER_NAV_PORTFOLIO}
           </Link>
-        </td>
+        </td> */}
       </div>
       <div className="right-header-container">
         <Link to="mailto:maxim.skorobagatko@gmail.com">
