@@ -1,5 +1,6 @@
+@import '../../index.scss';
+
 .footer-container {
-  width: 70%;
   height: 6vh;
   display: flex;
   justify-content: flex-start;
@@ -13,5 +14,19 @@
   .copyrights-label {
     font-size: 16;
     color: white;
+  }
+
+  @include for-phone-only {
+    width: 100%;
+    justify-content: center;
+  }
+  @include for-tablet-landscape-up {
+    width: 100%;
+  }
+  @include for-tablet-portrait-up {
+    width: 100%;
+  }
+  @include for-desktop-up {
+    width: 70%;
   }
 }

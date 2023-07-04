@@ -10,7 +10,6 @@
     width: 96%;
     display: flex;
     flex-wrap: wrap;
-
     .name-title {
       font-size: 75px;
       color: white;
@@ -42,6 +41,7 @@
     justify-content: center;
 
     .header-work-experience {
+      text-align: center;
       h3 {
         color: white;
       }

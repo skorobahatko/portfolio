@@ -1,3 +1,5 @@
+@import '../../index.scss';
+
 .main-container {
   width: 100%;
   display: flex;
@@ -10,7 +12,19 @@
 
 .center-container {
   background-color: #2b2e31;
-  width: 70%;
   min-height: 87vh;
   opacity: 0.9;
+
+  @include for-phone-only {
+    width: 100%;
+  }
+  @include for-tablet-landscape-up {
+    width: 100%;
+  }  
+  @include for-tablet-portrait-up {
+    width: 100%;
+  }
+  @include for-desktop-up {
+    width: 70%;
+  }
 }

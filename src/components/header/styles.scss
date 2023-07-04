@@ -1,12 +1,12 @@
+@import '../../index.scss';
+
 .header-container {
   display: flex;
-  width: 70%;
   height: 7vh;
   align-items: center;
   justify-content: space-between;
 
   background-color: #413b3b;
-
   .left-header-container {
     display: flex;
     margin-left: 4%;
@@ -36,12 +36,19 @@
         text-decoration: none;
       }
     }
+    @include for-phone-only {
+      display: none;
+    }
   }
   .right-header-container {
     display: flex;
     margin-right: 20px;
-    width: 10%;
     justify-content: space-between;
+
+    span:nth-child(n) {
+      margin-left: 10px;
+    }
+    
     span {
       :hover {
         fill: rgb(108, 106, 106);
@@ -52,5 +59,25 @@
         height: 30px;
       }
     }
+    @include for-phone-only {
+      margin-right: 0;
+      span:nth-child(n) {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  @include for-phone-only {
+    width: 100%;
+    justify-content: center;
+  }
+  @include for-tablet-landscape-up {
+    width: 100%;
+  }
+  @include for-tablet-portrait-up {
+    width: 100%;
+  }
+  @include for-desktop-up {
+    width: 70%;
   }
 }
