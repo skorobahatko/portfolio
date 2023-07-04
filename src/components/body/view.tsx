@@ -3,7 +3,7 @@ import { Header } from '../header';
 
 import './styles.scss';
 
-export const BodyComponent = ({ innerComponent, activePage }: { innerComponent: JSX.Element; activePage: 'about' | 'portfolio' | 'contact' }) => {
+export const BodyComponent = ({ innerComponent, activePage }: { innerComponent: JSX.Element; activePage: 'about' | 'portfolio' }) => {
   return (
     <section className="main-container">
       <Header activePage={activePage} />

@@ -16,10 +16,6 @@ const router = createBrowserRouter([
   // {
   //   path: '/portfolio',
   //   element: <PortfolioPage />
-  // },
-  // {
-  //   path: '/contact',
-  //   element: <ContactPage />
   // }
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
