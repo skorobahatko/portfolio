@@ -8,15 +8,11 @@ import './index.scss';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <AboutPage />
+    path: '*',
+    element: <AboutPage />,
+    errorElement: <section><h1>SOMETHING WENT WRONG</h1></section>
   }
 ]);
-
-  // {
-  //   path: '/portfolio',
-  //   element: <PortfolioPage />
-  // }
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
