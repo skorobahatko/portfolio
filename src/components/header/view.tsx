@@ -8,9 +8,9 @@ export const Header = ({ activePage }: { activePage: string }) => {
     <section className="header-container">
       <div className="left-header-container">
         <td className={`${activePage === 'about' ? 'active ' : ''}nav-item`}>
-          <Link className="link-item" to={'/'}>
+          {/* <Link className="link-item" to={'/'}> */}
             {MAIN_CONTENT_HEADER_FOOTER.HEADER_NAV_ABOUT}
-          </Link>
+          {/* </Link> */}
         </td>
         {/* <td className={`${activePage === 'portfolio' ? 'active ' : ''}nav-item`}>
           <Link className="link-item" to={'/portfolio'}>
