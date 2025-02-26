@@ -1,7 +1,7 @@
 export const MAIN_CONTENT_HEADER_FOOTER = {
   HEADER_NAV_ABOUT: 'About',
   HEADER_NAV_PORTFOLIO: 'Portfolio',
-  FOOTER_COPYRIGHTS: '© 2023 Maksym Skorobahatko'
+  FOOTER_COPYRIGHTS: '© 2025 Maksym Skorobahatko'
 };
 
 export const ABOUT_PAGE_CONTENT = {
