@@ -14,7 +14,8 @@ export const ABOUT_PAGE_CONTENT = {
     {
       fromTo: 'October 2025 - Present',
       title: 'NGU',
-      content: `In the army. Defending my country`
+      content: `In the army. Defending my country`,
+      list: []
     },
     {
       fromTo: 'August 2022 - October 2025',
