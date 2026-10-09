@@ -12,7 +12,13 @@ export const ABOUT_PAGE_CONTENT = {
   MAIN_CONTENT_2: `I build backend applications with high proficiency. Easy to learn new and highly adaptive to complex app structures. Fluent to speak in English (B2 level)`,
   WORK_EXPERIENCE_ARRAY: [
     {
-      fromTo: 'August 2022 - Present',
+      fromTo: 'October 2025 - Present',
+      title: 'NGU',
+      content: `In the army. Defending my country`,
+      list: []
+    },
+    {
+      fromTo: 'August 2022 - October 2025',
       title: 'Daizy',
       content: `Financial startup. Investment AI. ESG, ETF's analysis`,
       list: ['Providing architecture of Backend and Frontend projects and support them', 'Communication with English-speaking client']
